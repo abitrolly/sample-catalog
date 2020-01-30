@@ -1,5 +1,8 @@
 A sample catalog with rewrite templates. Feel free to fork and modify with your own! 
 
+[![Build Status](https://travis-ci.com/comby-tools/sample-catalog.svg?branch=master)](https://travis-ci.com/comby-tools/sample-catalog)
+
+
 ## Layout
 
 The `catalogue` folder contains a directory tree of templates. Each leaf folder is one rewrite pattern, containing the following files.
@@ -17,7 +20,7 @@ The top level language under the `catalogue` directory defines the language labe
 
 ## Generating the web site
 
-Run `python generate.py` (uses Python 2). This creates a `catalogue.json`. The JSON file is refenced in `index.html` to generate the site.
+Run `python generate.py` to regenerate `catalogue.json`, which is used by `index.html` of the site.
 
 ## Examples
 
